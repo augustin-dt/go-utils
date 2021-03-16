@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/keptn/go-utils/pkg/api/models"
+	"github.com/augustin-dt/go-utils/pkg/api/models"
 )
 
 const v1ProjectPath = "/v1/project"

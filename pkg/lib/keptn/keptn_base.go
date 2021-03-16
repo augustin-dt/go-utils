@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/keptn/go-utils/pkg/api/models"
-	api "github.com/keptn/go-utils/pkg/api/utils"
+	"github.com/augustin-dt/go-utils/pkg/api/models"
+	api "github.com/augustin-dt/go-utils/pkg/api/utils"
 	"gopkg.in/yaml.v2"
 )
 

@@ -1,9 +1,9 @@
 package v0_2_0
 
 import (
-	"github.com/keptn/go-utils/pkg/api/models"
-	api "github.com/keptn/go-utils/pkg/api/utils"
-	"github.com/keptn/go-utils/pkg/lib/keptn"
+	"github.com/augustin-dt/go-utils/pkg/api/models"
+	api "github.com/augustin-dt/go-utils/pkg/api/utils"
+	"github.com/augustin-dt/go-utils/pkg/lib/keptn"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"

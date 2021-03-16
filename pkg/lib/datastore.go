@@ -3,7 +3,7 @@ package keptn
 import (
 	"crypto/tls"
 	"encoding/json"
-	"github.com/keptn/go-utils/pkg/api/models"
+	"github.com/augustin-dt/go-utils/pkg/api/models"
 	"io/ioutil"
 	"net/http"
 	"strings"

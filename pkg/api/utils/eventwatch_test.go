@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/go-openapi/strfmt"
-	"github.com/keptn/go-utils/pkg/api/models"
+	"github.com/augustin-dt/go-utils/pkg/api/models"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"

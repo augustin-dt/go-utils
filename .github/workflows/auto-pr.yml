@@ -76,7 +76,7 @@ jobs:
             -d "{\"title\":\"Auto-update go-utils to latest version\", \
                  \"base\":\"master\", \"head\":\"$TARGET_BRANCH\", \
                  \"body\":\":robot: **Beep boop I am a bot**\n\
-                            This is an automatically created PR to change [keptn/go-utils](https://github.com/keptn/go-utils) to version $GO_UTILS_TARGET.\n \
-                            Please consult https://github.com/keptn/go-utils/actions?query=workflow%3A%22Auto+PR+to+keptn%2Fkeptn%22 for more information.\n \
+                            This is an automatically created PR to change [keptn/go-utils](https://github.com/augustin-dt/go-utils) to version $GO_UTILS_TARGET.\n \
+                            Please consult https://github.com/augustin-dt/go-utils/actions?query=workflow%3A%22Auto+PR+to+keptn%2Fkeptn%22 for more information.\n \
                             \"}" \
                  https://api.github.com/repos/keptn/keptn/pulls || true

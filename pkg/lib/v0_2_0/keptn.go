@@ -5,8 +5,8 @@ import (
 	"fmt"
 	cloudevents "github.com/cloudevents/sdk-go/v2"
 	"github.com/google/uuid"
-	api "github.com/keptn/go-utils/pkg/api/utils"
-	"github.com/keptn/go-utils/pkg/lib/keptn"
+	api "github.com/augustin-dt/go-utils/pkg/api/utils"
+	"github.com/augustin-dt/go-utils/pkg/lib/keptn"
 	"gopkg.in/yaml.v2"
 	"log"
 )

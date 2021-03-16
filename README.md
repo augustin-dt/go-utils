@@ -1,7 +1,7 @@
 # Keptn go-utils
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/keptn/go-utils)
-![tests](https://github.com/keptn/go-utils/workflows/tests/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/keptn/go-utils)](https://goreportcard.com/report/github.com/keptn/go-utils)
+![tests](https://github.com/augustin-dt/go-utils/workflows/tests/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/augustin-dt/go-utils)](https://goreportcard.com/report/github.com/augustin-dt/go-utils)
 
 This repo serves as a util package for common functionalities such as logging of the [Keptn Project](https://github.com/keptn).
 
@@ -11,9 +11,9 @@ Please post any issues with this package to the [keptn/keptn repository](https:/
 
 Get the latest version using
 ```console
-go get github.com/keptn/go-utils
+go get github.com/augustin-dt/go-utils
 ```
-Also consider browsing our [Releases Page](https://github.com/keptn/go-utils/releases) to find out about all releases.
+Also consider browsing our [Releases Page](https://github.com/augustin-dt/go-utils/releases) to find out about all releases.
 
 
 ## Contributing
@@ -31,7 +31,7 @@ If you need to access several utility functions:
 
 ```go
 import {
-  "github.com/keptn/go-utils/pkg/lib"
+  "github.com/augustin-dt/go-utils/pkg/lib"
 }
 ```
 
@@ -122,7 +122,7 @@ If you need to access data within CloudEvents:
 
 ```go
 import {
-	"github.com/keptn/go-utils/pkg/lib"
+	"github.com/augustin-dt/go-utils/pkg/lib"
 )
 ```
 
@@ -142,7 +142,7 @@ If you need to access Models for YAML files:
 
 ```go
 import {
-	"github.com/keptn/go-utils/pkg/lib"
+	"github.com/augustin-dt/go-utils/pkg/lib"
 )
 ```
 
@@ -192,6 +192,6 @@ to update the models located in `./pkg/api/models`
 
 ## Automation
 
-A [GitHub Action](https://github.com/keptn/go-utils/actions?query=workflow%3A%22Auto+PR+to+keptn%2Fkeptn%22) is used
+A [GitHub Action](https://github.com/augustin-dt/go-utils/actions?query=workflow%3A%22Auto+PR+to+keptn%2Fkeptn%22) is used
 that creates a Pull Request to  [github.com/keptn/keptn](https://github.com/keptn/keptn) to update `go.mod`
 files with an updated version of this  package (based on the commit hash).

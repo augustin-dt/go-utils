@@ -3,8 +3,8 @@ package v0_2_0
 import (
 	"errors"
 	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/keptn/go-utils/pkg/lib/keptn"
-	"github.com/keptn/go-utils/pkg/lib/v0_2_0/fake"
+	"github.com/augustin-dt/go-utils/pkg/lib/keptn"
+	"github.com/augustin-dt/go-utils/pkg/lib/v0_2_0/fake"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

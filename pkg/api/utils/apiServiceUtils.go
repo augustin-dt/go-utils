@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/keptn/go-utils/pkg/api/models"
+	"github.com/augustin-dt/go-utils/pkg/api/models"
 )
 
 // APIService represents the interface for accessing the configuration service

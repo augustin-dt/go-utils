@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 	"github.com/cloudevents/sdk-go/v2/protocol"
-	"github.com/keptn/go-utils/pkg/api/models"
-	"github.com/keptn/go-utils/pkg/lib/keptn"
+	"github.com/augustin-dt/go-utils/pkg/api/models"
+	"github.com/augustin-dt/go-utils/pkg/lib/keptn"
 	"strings"
 	"time"
 
