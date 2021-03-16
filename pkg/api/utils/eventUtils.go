@@ -159,6 +159,9 @@ func (e *EventHandler) getEvents(uri string, numberOfPages int) ([]*models.Keptn
 			q.Set("nextPageKey", nextPageKey)
 			url.RawQuery = q.Encode()
 		}
+
+		println("getEvents url " + url.String())
+
 		req, err := http.NewRequest("GET", url.String(), nil)
 		req.Header.Set("Content-Type", "application/json")
 		addAuthHeader(req, e)
