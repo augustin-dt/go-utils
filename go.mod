@@ -1,4 +1,4 @@
-module github.com/keptn/go-utils
+module github.com/augustin-dt/go-utils
 
 go 1.13
 
